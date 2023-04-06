@@ -1,5 +1,23 @@
 multiCameraLogicalXMLFile=haydn.xml
 isZoomRatioSupported=TRUE
+
+#close camera log
+logInfoMask=0
+overrideLogLevels=0x1
+logWarningMask=0
+logConfigMask=0
+systemLogEnable=TRUE
+logCoreCfgMask=0
+enableAsciiLogging=0
+logRequestMapping=FALSE
+enableTxtLogging=0
+traceGroupsEnable=0
+enable3ADebugData=FALSE
+enableTuningMetadata=FALSE
+raiserecoverysigabrt=FALSE
+enableCameraCoreDumpBinary=FALSE
+enableCameraCoreDumpText=FALSE
+
 pdafHWEnable=FALSE
 isPhyicalMultiCameraSupported=TRUE
 bokehRelightVerion=2
@@ -66,20 +84,3 @@ enableCHIPartialData=1
 quickviewsupport=TRUE
 quickviewmask=0x2F03
 isNightYuvReprocSupported=TRUE
-
-#close camera log
-logInfoMask=0
-overrideLogLevels=0x1
-logWarningMask=0
-logConfigMask=0
-systemLogEnable=TRUE
-logCoreCfgMask=0
-enableAsciiLogging=0
-logRequestMapping=FALSE
-enableTxtLogging=0
-traceGroupsEnable=0
-enable3ADebugData=FALSE
-enableTuningMetadata=FALSE
-raiserecoverysigabrt=FALSE
-enableCameraCoreDumpBinary=FALSE
-enableCameraCoreDumpText=FALSE
